@@ -1,0 +1,16 @@
+#!/bin/perl
+
+$max = 13195;
+$count = 3;
+
+while ($count < $max)
+	{
+	$n = 1;
+	while ($n < $max)
+	{
+	if ( $n % $count == 0)
+		print "$count is prime \n";
+	$n++;
+	}
+	$count++;
+	}
